@@ -17,7 +17,7 @@
 
 <body>
     <!-- Navbar begin -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
 
         <button class="navbar-toggler ml-auto mb-2 bg-light" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon "></span>
@@ -49,19 +49,25 @@
                     <!-- end of sidebar-->
                     <!-- uppwr nav try-->
                     <div class="col-9 ml-auto">
-                        <div class="u-nav row">
+                        <div class="row .justify-content-center align-items-center text-light">
                             <div class="col-md-2">DASHBORAD</div>
-                            <div class="input-group col-8">
-                                <div class="form-outline">
-                                    <input type="search" id="form1" class="form-control" />
-                                    <label class="form-label" for="form1">Search</label>
-                                </div>
-                                <button type="button" class="btn btn-primary">
-                                    <i class="fas fa-search"></i>
-                                </button>
+                            <div class="col-md-5 ml-auto">
+                                <form>
+                                    <div class="input-group ">
+                                     
+                                            <input type="text" class="form-control bg-dark border-top-0 border-right-0 border-left-0 rounded-0" placeholder="Search" aria-label="Search" aria-describedby="button-addon2">
+                                            <button class="btn btn-light rounded-circle" type="button" id="button-addon2"><i class="fas fa-search text-danger"></i></button>
+             
+                                    </div>
+                                </form>
                             </div>
-                            <div class="col-1">
-                                <i class="fas fa-user fa-lg mr-3 text-light"></i>
+
+                            <div class="col-1 ">
+                                <i class="fas fa-comments text-secondary"></i>
+                                <i class="fas fa-bell text-secondary"></i>
+                            </div>
+                            <div class="col-1 ml-auto">
+                            <i class="fas fa-sign-out-alt text-danger"></i>
                             </div>
                         </div>
                     </div>
