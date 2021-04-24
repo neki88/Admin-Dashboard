@@ -23,7 +23,7 @@
             <span class="navbar-toggler-icon "></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <div class=".container-fluid .bg-success">
+            <div class="container-fluid .bg-success">
                 <div class="row .w-100">
                     <!--sidebar-->
                     <div class="col-xl-2 col-lg-3 col-md-4 sidebar fixed-top">
@@ -33,15 +33,15 @@
                             <a href="#" class="text-white">Nemanja Pajic</a>
                         </div>
                         <ul class="navbar-nav flex-column mt-4">
-                            <li class="nav-item"><a href="#" class="nav-link text-white p3 mb-2 current"><i class="fas fa-home fa-lg mr-3 text-light"></i>Dashboard</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link text-white p3 mb-2 sidebar-link"><i class="fas fa-user fa-lg mr-3 text-light"></i>Profil</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link text-white p3 mb-2 sidebar-link"><i class="fas fa-envelope fa-lg mr-3 text-light"></i>Inbox</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link text-white p3 mb-2 sidebar-link"><i class="fas fa-shopping-cart fa-lg mr-3 text-light"></i>Sales</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link text-white p3 mb-2 sidebar-link"><i class="fas fa-chart-line fa-lg mr-3 text-light"></i>Anaytics</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link text-white p3 mb-2 sidebar-link"><i class="fas fa-chart-bar fa-lg mr-3 text-light"></i>Charts</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link text-white p3 mb-2 sidebar-link"><i class="fas fa-table fa-lg mr-3 text-light"></i>Tables</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link text-white p3 mb-2 sidebar-link"><i class="fas fa-wrench fa-lg mr-3 text-light"></i>Settings</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link text-white p3 mb-2 sidebar-link"><i class="fas fa-file-alt fa-lg mr-3 text-light"></i>Documentation</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 current"><i class="fas fa-home fa-lg mr-3 text-light"></i>Dashboard</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-user fa-lg mr-3 text-light"></i>Profil</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-envelope fa-lg mr-3 text-light"></i>Inbox</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-shopping-cart fa-lg mr-3 text-light"></i>Sales</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-chart-line fa-lg mr-3 text-light"></i>Anaytics</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-chart-bar fa-lg mr-3 text-light"></i>Charts</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-table fa-lg mr-3 text-light"></i>Tables</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-wrench fa-lg mr-3 text-light"></i>Settings</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-file-alt fa-lg mr-3 text-light"></i>Documentation</a></li>
 
 
                         </ul>
@@ -65,7 +65,7 @@
                                 <ul class="navbar-nav .mr-auto">
                                     <li class="nav-item icon-parent"><a href="#"><i class="nav-link fas fa-comments fa-lg text-secondary icon-bullet"></i></a></li>
                                     <li class="nav-item icon-parent icon-bullet"><a href="#"><i class="nav-link fas fa-bell fa-lg text-secondary"></i></a></li>
-                                    <li class="nav-item ml-md-auto icon-parent"><a href="#"><i class="nav-link fas fa-sign-out-alt fa-lg text-danger"></i></a></li>
+                                    <li class="nav-item ml-md-auto"><a href="#" class="nav-link" data-toggle="modal" data-target="#sing-out"><i class=" fas fa-sign-out-alt fa-lg text-danger"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -74,35 +74,34 @@
                     <!-- end top-nav-->
                 </div>
             </div>
-
-
-
-
-
-
-            <!-- <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Dashboard <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Profile</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Inbox</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Sale</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Analytics</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Charts</a>
-            </li>
-          </ul>-->
         </div>
     </nav>
     <!-- Navbar end -->
+    <!-- Modal -->
+    <div class="modal fade" id="sing-out">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="model-title">Want to leave?</h4>
+                    <button type="button" class="close" data-dismiss="modal" >&times;</button>
+                </div>
+                <div class="modal-body">
+                    Press logut to leave
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal" >Stay Here</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal" >Logout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal end -->
+    
+    
+    <div class="site">
+        <a href="www.google.com" class="site-a">click</a>
+    </div>
+    
 
     <!-- Optional JavaScript; choose one of the two! -->
 
