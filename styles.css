@@ -91,19 +91,9 @@ body {
     }
 }
 
-.site {
-    height: 500px;
-    width: 700px;
+.cards {
+    height: 50vh;
     background-color: aqua;
-    margin-left: 500px;
-    margin-top: 100px;
-}
-
-.site-a {
-    height: 500px;
-    width: 700px;
-    background-color: royalblue;
-    display: inline-block;
 }
 
 
